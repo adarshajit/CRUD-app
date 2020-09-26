@@ -10,10 +10,10 @@ class Header extends Component {
         <div className="collpase navbar-collapse">
         <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
-          <Link to="/" className="nav-link">Exercises</Link>
+          <Link to="/" className="nav-link">Exercise list</Link>
           </li>
           <li className="navbar-item">
-          <Link to="/create" className="nav-link">Excercise list</Link>
+          <Link to="/create" className="nav-link">Create Excercise</Link>
           </li>
           <li className="navbar-item">
           <Link to="/user" className="nav-link">Create User</Link>
