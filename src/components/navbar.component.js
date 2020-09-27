@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Header extends Component {
+export default class Navbar extends Component {
 
   render() {
     return (
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <Link to="/" className="navbar-brand">Health App</Link>
+        <Link to="/" className="navbar-brand">ExcerTracker</Link>
         <div className="collpase navbar-collapse">
         <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
-          <Link to="/" className="nav-link">Exercise list</Link>
+          <Link to="/" className="nav-link">Exercises</Link>
           </li>
           <li className="navbar-item">
-          <Link to="/create" className="nav-link">Create Excercise</Link>
+          <Link to="/create" className="nav-link">Create Exercise Log</Link>
           </li>
           <li className="navbar-item">
           <Link to="/user" className="nav-link">Create User</Link>
@@ -24,5 +24,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;
